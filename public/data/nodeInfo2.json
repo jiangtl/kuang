@@ -1,0 +1,24 @@
+{
+	"data": [{
+		"name": "网络客户数",
+		"value": "11"
+	}, {
+		"name": "网络客户申请数",
+		"value": "12"
+	}, {
+		"name": "网络客户申请拒绝数",
+		"value": "13"
+	}, {
+		"name": "网络客户黑名单拒绝数",
+		"value": "14"
+	}, {
+		"name": "网络客户开户数",
+		"value": "15"
+	}, {
+		"name": "XXXXXXXXX",
+		"value": "16"
+	}, {
+		"name": "AAAAAAAAAA",
+		"value": "17"
+	}]
+}

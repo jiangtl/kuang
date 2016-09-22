@@ -1,0 +1,51 @@
+//edges的 source target编号是按node的顺序 0...n
+//直辖市 和北京的连线 {"source":4,"target":1}
+//level: top 是指这个节点是 从上一个top到这一个top之间所有节点的父节点
+{
+	"node": [ 
+			{ "name": "重庆" }, 
+			{ "name": "北京" },
+		  { "name": "天津" }, 
+		  { "name": "深圳" },
+		  { "name": "直辖市", "level":"top" }, 
+		  { "name": "成都" },
+		  { "name": "拉萨" },
+		  { "name": "兰州" },
+		  { "name": "贵阳" }, 
+		  { "name": "郑州" },
+		  { "name": "石家庄" }, 
+		  { "name": "沈阳" },
+		  { "name": "吉林" }, 
+		  { "name": "齐齐哈尔" },
+		  { "name": "银川" },  
+		  { "name": "省会" , "level":"top"},
+		  { "name": "中国联通"},
+		  { "name": "中国移动"},
+		  { "name": "中国电信"},
+		  { "name": "中国铁通"},
+		  { "name": "通讯企业", "level": "top"}
+		],
+	"edges" : [  
+			{ "source" : 4  , "target": 1 } , 
+			{ "source" : 4  , "target": 2 } ,
+		  { "source" : 4  , "target": 3 } , 
+		  { "source" : 4  , "target": 0 } ,
+			{ "source" : 15  , "target": 5 } , 
+			{ "source" : 15  , "target": 6 } , 
+			{ "source" : 15  , "target": 7 } , 
+			{ "source" : 15  , "target": 8 } ,
+			{ "source" : 15  , "target": 9 } , 
+			{ "source" : 15  , "target": 10 } , 
+			{ "source" : 15  , "target": 11 } , 
+			{ "source" : 15  , "target": 12 } ,
+			{ "source" : 15  , "target": 13 } , 
+			{ "source" : 15  , "target": 14 } , 
+			{ "source" : 15  , "target": 15 } ,
+			{ "source" : 15  , "target": 4 } ,
+			{ "source" : 20  , "target": 15 } ,
+			{ "source" : 20  , "target": 16 } ,
+			{ "source" : 20  , "target": 17 } ,
+			{ "source" : 20  , "target": 18 } ,
+			{ "source" : 20  , "target": 19 } 
+		]
+}
